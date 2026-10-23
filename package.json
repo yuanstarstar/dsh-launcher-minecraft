@@ -1,0 +1,33 @@
+{
+  "name": "dsh-launcher-minecraft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minecraft 附属启动器：为 DSH启动器 提供 Minecraft 版本安装、加载器、Modrinth 内容与启动能力（独立 zip 包，非 DSH 插件）。",
+  "license": "MIT",
+  "author": "<你的名字或 GitHub 用户名>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/dsh-launcher-minecraft.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-launcher-minecraft",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-launcher-minecraft/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "minecraft",
+    "launcher",
+    "dsh-launcher",
+    "sublauncher",
+    "modrinth",
+    "fabric",
+    "forge"
+  ],
+  "scripts": {
+    "test": "node scripts/check-package.mjs && node scripts/adapter-test.mjs",
+    "build:dist": "node scripts/build-dist.mjs"
+  }
+}

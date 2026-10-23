@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 测试临时目录（真实下载/合成实例）
+test/tmp/
+
+# 测试报告为生成物
+test/adapter-report.txt
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db

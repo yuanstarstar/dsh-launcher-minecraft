@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-23",
+  "entries": [
+    {
+      "id": "minecraft",
+      "label": "Minecraft",
+      "repo": "yuanstarstar/dsh-launcher-minecraft",
+      "version": "1.0.0",
+      "description": "Minecraft 附属启动器：游戏版本、加载器（Fabric/Quilt/Forge/NeoForge）、Modrinth 内容搜索与下载、Java 运行时管理、启动参数生成。安装后即可在「游戏」页下载并启动。",
+      "homepage": "https://github.com/yuanstarstar/dsh-launcher-minecraft",
+      "tags": ["sandbox", "java"]
+    }
+  ]
+}

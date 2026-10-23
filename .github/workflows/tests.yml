@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 静态校验（包结构/入口/清单）
+        run: node scripts/check-package.mjs
+      - name: 适配器自测（离线部分）
+        env:
+          SKIP_NETWORK: '1'
+        run: node scripts/adapter-test.mjs
+      - name: 构建附属启动器 zip
+        run: node scripts/build-dist.mjs
