@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft",
+  "label": "Minecraft",
+  "version": "1.0.0",
+  "entry": "lib/index.mjs",
+  "minCoreVersion": "3.2.0",
+  "description": "Minecraft 附属启动器：提供 Minecraft 版本安装、Fabric/Quilt/Forge/NeoForge 加载器、Modrinth 模组下载与游戏启动。",
+  "homepage": "https://github.com/OWNER/dsh-launcher-minecraft",
+  "gamesHint": [
+    "Minecraft"
+  ]
+}
