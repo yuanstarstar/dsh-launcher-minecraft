@@ -29,7 +29,7 @@ Minecraft 专属逻辑：
 ### 方式一：面板「附属启动器」页添加 GitHub 仓库
 
 1. 打开 DSH启动器 → 设置/面板 → **附属启动器** 页；
-2. 填写 GitHub 仓库：`OWNER/dsh-launcher-minecraft`；
+2. 填写 GitHub 仓库：`yuanstarstar/dsh-launcher-minecraft`；
 3. 安装后数秒内自动热加载（核心每 2.5 秒轮询一次，**不需要重启**），新建实例时即可选择 Minecraft。
 
 > 仓库需要发布 Release，并上传 `minecraft-launcher-<版本>.zip`（见「发布」一节）。
@@ -39,7 +39,7 @@ Minecraft 专属逻辑：
 对启动器说：
 
 ```text
-安装附属启动器，GitHub 仓库 OWNER/dsh-launcher-minecraft
+安装附属启动器，GitHub 仓库 yuanstarstar/dsh-launcher-minecraft
 ```
 
 启动器会调用 `launcher_install_sublauncher` 工具，从 Release 下载 zip 并安装到
